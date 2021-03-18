@@ -5,20 +5,11 @@ gym==0.17.3
 h5py==2.10.0
 incremental==17.5.0
 inquirer==2.7.0
-ipykernel @ file:///C:/ci/ipykernel_1596208728219/work/dist/ipykernel-5.3.4-py3-none-any.whl
-ipython @ file:///C:/ci/ipython_1598883894321/work
 ipython-genutils==0.2.0
 ipywidgets==7.6.3
-isort @ file:///tmp/build/80754af9/isort_1602603989581/work
-itemadapter==0.1.1
-itemloaders==1.0.3
 itsdangerous==1.1.0
 Jinja2==2.11.2
-jinxed==1.0.1
-jmespath==0.10.0
 joblib==0.17.0
-jsonschema @ file:///C:/ci/jsonschema_1594363671836/work
-jupyter-client @ file:///tmp/build/80754af9/jupyter_client_1594826976318/work
 jupyter-core==4.6.3
 jupyterlab-widgets==1.0.0
 Keras==2.4.3

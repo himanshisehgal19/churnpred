@@ -1,58 +1,8 @@
-absl-py @ file:///C:/ci/absl-py_1600290345082/work
-ansicon==1.89.0
-argon2-cffi @ file:///C:/ci/argon2-cffi_1596828549974/work
-astor==0.8.1
-astroid @ file:///C:/ci/astroid_1592481955828/work
-astunparse==1.6.3
-attrs @ file:///tmp/build/80754af9/attrs_1600298409949/work
-Automat==20.2.0
-backcall==0.2.0
-basemap==1.2.0
-beautifulsoup4==4.9.3
-bleach @ file:///tmp/build/80754af9/bleach_1600439572647/work
-blessed==1.17.6
-blinker==1.4
-brotlipy==0.7.0
-cached-property==1.5.2
-cachetools @ file:///tmp/build/80754af9/cachetools_1596822027882/work
-certifi==2020.6.20
-cffi @ file:///C:/ci/cffi_1600699250966/work
-chardet==3.0.4
 click==7.1.2
-cloudpickle==1.6.0
-colorama==0.4.3
-constantly==15.1.0
-cryptography @ file:///C:/ci/cryptography_1598873979408/work
-cssselect==1.1.0
-cycler==0.10.0
-Cython==0.29.14
-decorator==4.4.2
-defusedxml==0.6.0
-descartes==1.1.0
-entrypoints==0.3
-et-xmlfile==1.0.1
-fast-histogram==0.9
 Flask==1.1.2
-flatbuffers==1.12
-future==0.18.2
-gast==0.3.3
-gensim==3.8.3
-google==3.0.0
-google-api-core==1.23.0
-google-api-python-client==1.12.8
-google-auth @ file:///tmp/build/80754af9/google-auth_1600274525154/work
-google-auth-httplib2==0.0.4
-google-auth-oauthlib==0.4.1
-google-pasta==0.2.0
-googleapis-common-protos==1.52.0
-grpcio==1.32.0
 gunicorn==20.0.4
 gym==0.17.3
 h5py==2.10.0
-html5lib==1.1
-httplib2==0.18.1
-hyperlink==20.0.1
-idna @ file:///tmp/build/80754af9/idna_1593446292537/work
 importlib-metadata @ file:///C:/ci/importlib-metadata_1593446525189/work
 incremental==17.5.0
 inquirer==2.7.0
@@ -64,7 +14,6 @@ isort @ file:///tmp/build/80754af9/isort_1602603989581/work
 itemadapter==0.1.1
 itemloaders==1.0.3
 itsdangerous==1.1.0
-jedi @ file:///C:/ci/jedi_1596472767194/work
 Jinja2==2.11.2
 jinxed==1.0.1
 jmespath==0.10.0

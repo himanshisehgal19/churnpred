@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Churn Prediction</title>
+	<style>
+		input[type=text], input[type=number] {
+    width: 80%;
+    padding: 12px 10px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+	border-radius: 4px;
+    
+    
+}
+td{
+	width: 40rem;
+}
+input[type=submit]{
+    width: 20%;
+    background-color: #ddd;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+	margin-right: 15rem;
+	color: lavenderblush;
+	background-color: dodgerblue;
+	font-size: 2rem;
+}
+h1{
+
+	
+	font-size: 2rem;
+	background-color: rgb(255, 199, 209);
+	font-family: Arial, Helvetica, sans-serif;
+	padding: 2.5rem;
+	color: mintcream;
+}
+pre{
+	font-size: 2.3rem;
+	
+	color:dodgerblue;
+	font-family: Arial, Helvetica, sans-serif;
+	
+}
+center{
+	margin-right:5rem ;
+}
+img{
+	width:100%;
+	height: 20rem;
+}
+select{
+background-color: whitesmoke;
+  border: none;
+  color:dodgerblue;
+  padding: 15px 230px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 20px;
+
+
+}
+p{
+	font-size:1.5rem;
+	
+	
+	font-family: Arial, Helvetica, sans-serif;
+
+}
+		</style>
+
+</head>
+<body>
+	<img src="https://miro.medium.com/max/750/1*8_Md5Ns2OKeW9F8XRRCMKg.jpeg">
+<!--<pre>
+	Diabetes mellitus, commonly known as diabetes, is a metabolic disease that causes high blood sugar. 
+	The hormone insulin moves sugar from the blood into your cells to be stored or used for energy. 
+	With diabetes, your body either doesn't make enough insulin or can't effectively use the insulin it does make.</pre>-->
+	<pre>
+		Churn prediction is one of the most popular Big Data use cases in business. 
+
+	  It consists of detecting customers who are likely to cancel a subscription to a service.
+	</pre>
+<table>
+<form method="POST" action="/">
+	<tr>
+		<td>
+			<p>Enter Credit Score</p>
+	<input type ="text" name ="preg" placeholder="CreditScore" >
+</td>
+	
+<td>
+	<p>Enter Age </p>
+	<input type ="text" name ="glucose" placeholder="Age"></td>
+</tr>
+<tr>
+	<br>
+	
+<td>
+	<p>
+		Tenure
+	</p>
+	<br><input type ="text" name ="bldp" placeholder="Tenure"></td>
+	
+	
+<td>
+	<p>Balance</p>
+	<input type ="text" name ="skinth" placeholder="Balance"></td></tr>
+	<br>
+	
+<tr><td>
+	<p>Total Number of Products</p>
+	<input type ="text" name ="insulin" placeholder="NumOfProducts"></td>
+	
+	<!--<input type ="text" name ="bmi" placeholder="HasCrCard (if yes select 1 else enter 0)">-->
+<td><p>Has Credit Card (if yes select 1 else enter 0)</p>
+	<select name= "bmi" method="GET" action="/">
+		
+		<option value= "0" SELECTED>0</option>
+		<option value= "1" SELECTED>1</option>
+		<option SELECTED>Select </option>
+	  </select>
+</td>
+</tr>
+	<br>
+	
+<tr><td><!--<input type ="text" name ="dpf" placeholder="IsActiveMember (if yes enter 1 else enter 0) ">-->
+	<p>Is Active member or not (if yes select 1 else enter 0)</p>
+	<select name= "dpf" method="GET" action="/">
+		
+		<option value= "0" SELECTED>0</option>
+		<option value= "1" SELECTED>1</option>
+		<option SELECTED>Select </option>
+	  </select>
+</td>
+	
+
+<td><p>Estimated Salary </p>
+	<input type ="text" name ="age" placeholder=" EstimatedSalary "></td></tr>
+	<br>
+	<tr>
+<td><!--<input type ="text" name ="varr" placeholder=" Germany (if yes enter 1 else enter 0) ">-->
+	<p>Geography</p>
+	<select name= "varr" method="GET" action="/">
+		
+		<option value= "germany" SELECTED>Germany</option>
+		<option value= "france" SELECTED>France</option>
+		<option SELECTED>Select </option>
+	  </select>
+</td>
+	<br>
+	<td><!--<input type ="text" name ="vary" placeholder=" Male (if yes enter 1 else enter 0)">-->
+		<p>Gender</p>
+		<select name= "vary" method="GET" action="/">
+			
+			<option value= "male" SELECTED>Male</option>
+			<option value= "female" SELECTED>Female</option>
+			<option SELECTED>Select </option>
+		  </select>
+	</td></tr>
+</table>
+<br><br>
+<center>	<input type="submit" ></center>
+</form>
+
+
+{% if predicted == 'F' %}
+<h1><marquee direction = "left">Result is Negative  </marquee></h1>
+<h1><marquee direction = "left">Customer will not exit  </marquee></h1>
+{% elif predicted == 'T'  %}
+<h1><marquee direction = "left">Result is Positive</marquee> </h1>
+<h1><marquee direction = "left">Customer can exit  </marquee></h1>
+{% endif %}
+
+
+
+
+</body>
+</html>
